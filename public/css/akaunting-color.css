@@ -8,7 +8,7 @@ body
 /*--Header Set Color--*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
-    color: #55588b;
+    color: rgb(30,65,86);
 }
 /*--Header Set Color Finish--*/
 
@@ -23,11 +23,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 /*--Anchor Color--*/
 a
 {
-    color: #6da252;
+    color: rgb(30,65,86);
 }
 a:hover
 {
-    color: #3d7224;
+    color: rgb(252,77,23);
 }
 /*--Anchor Color Finish--*/
 
@@ -75,7 +75,9 @@ a.text-secondary:focus
 /*--Info Color--*/
 .text-info
 {
-    color: #328aef !important;
+    /*color: #328aef !important;*/
+    color: rgb(252,77,23) !important;
+
 }
 
 a.text-info:hover,
@@ -88,7 +90,9 @@ a.text-info:focus
 /*--Success Color--*/
 .text-success
 {
-    color: #6da252 !important;
+    /*color: #6da252 !important;*/
+    color: rgb(30,65,86) !important;
+
 }
 
 a.text-success:hover,
@@ -101,7 +105,9 @@ a.text-success:focus
 /*--Danger Color--*/
 .text-danger
 {
-    color: #ef3232 !important;
+    /*color: #ef3232 !important;*/
+    color: rgb(153,153,153) !important;
+
 }
 
 a.text-danger:hover,
@@ -512,7 +518,8 @@ a.text-yellow:focus
 /*--Default Color--*/
 .bg-default
 {
-    background-color: #3c3f72 !important;
+    /*background-color: #3c3f72 !important;*/
+    background-color: rgb(30,65,86) !important;
 }
 
 a.bg-default:hover,
@@ -894,15 +901,15 @@ button.bg-yellow:focus
 .btn-success
 {
     color: #ffffff;
-    border-color: #6da252;
-    background-color: #6da252;
+    border-color: rgb(252,77,23);
+    background-color: rgb(252,77,23);
     box-shadow: 0 4px 6px rgba(30, 31, 57, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .btn-success:hover
 {
     color: #ffffff;
-    border-color: #6da252;
-    background-color: #6da252;
+    border-color: rgb(252,77,23);
+    background-color:rgb(252,77,23);
 }
 .btn-success:focus,
 .btn-success.focus
@@ -913,16 +920,16 @@ button.bg-yellow:focus
 .btn-success:disabled
 {
     color: #ffffff;
-    border-color: #6da252;
-    background-color: #6da252;
+    border-color: rgb(252,77,23);
+    background-color: rgb(252,77,23);
 }
 .btn-success:not(:disabled):not(.disabled):active,
 .btn-success:not(:disabled):not(.disabled).active,
 .show > .btn-success.dropdown-toggle
 {
     color: #ffffff;
-    border-color: #6da252;
-    background-color: #6da252;
+    border-color: rgb(30,65,86);
+    background-color: rgb(30,65,86);
 }
 .btn-success:not(:disabled):not(.disabled):active:focus,
 .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -978,15 +985,15 @@ button.bg-yellow:focus
 .btn-warning
 {
     color: #ffffff;
-    border-color: #efad32;
-    background-color: #efad32;
+    border-color: rgb(30,65,86);
+    background-color: rgb(30,65,86);
     box-shadow: 0 4px 6px rgba(30, 31, 57, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .btn-warning:hover
 {
     color: #ffffff;
-    border-color: #efad32;
-    background-color: #efad32;
+    border-color: rgb(30,65,86);
+    background-color: rgb(30,65,86);
 }
 .btn-warning:focus,
 .btn-warning.focus
@@ -1861,21 +1868,27 @@ button.bg-yellow:focus
 /*--Info Color--*/
 .bg-gradient-info
 {
-    background: linear-gradient(87deg, #328aef 0, #66afff 100%) !important;
+    /*background: linear-gradient(87deg, #328aef 0, #66afff 100%) !important;*/
+    background: linear-gradient(87deg, rgb(252,77,23) 47%, #eee 127%) !important;
+
 }
 /*--Info Color Finish--*/
 
 /*--Success Color--*/
 .bg-gradient-success
 {
-    background: linear-gradient(87deg, #6da252 0, #b8d3a9 100%) !important;
+    /*background: linear-gradient(87deg, #6da252 0, #b8d3a9 100%) !important;*/
+    background: linear-gradient(87deg, rgb(30,65,86) 60%, #eee 207%) !important;
+
 }
 /*--Success Color Finish--*/
 
 /*--Danger Color--*/
 .bg-gradient-danger
 {
-    background: linear-gradient(87deg, #ef3232 0, #ff6666 100%) !important;
+    /*background: linear-gradient(87deg, #ef3232 0, #ff6666 100%) !important;*/
+    background: linear-gradient(87deg,rgb(153,153,153) 100%, #eee 27%) !important;
+
 }
 /*--Danger Color Finish--*/
 
@@ -1944,15 +1957,15 @@ button.bg-yellow:focus
 /*--Yes--*/
 .custom-toggle input:checked + .status-green
 {
-    border: 1px solid #6da252 !important;
+    border: 1px solid rgb(252,77,23) !important;
 }
 .custom-toggle input:checked + .status-green:before
 {
-    background-color: #6da252 !important;
+    background-color: rgb(252,77,23) !important;
 }
 .custom-toggle input:checked + .status-green:after
 {
-    color: #6da252 !important;
+    color: rgb(252,77,23) !important;
 }
 /*--Yes Finish--*/
 
@@ -2030,7 +2043,7 @@ button.bg-yellow:focus
 /*--Selected Text Color--*/
 .nav-item> .nav-link.active.show> .nav-link-text
 {
-    color: #161842 !important;
+    color: #fff !important;
 }
 /*--Selected Text Color Finish--*/
 
@@ -2135,7 +2148,7 @@ div.required > .form-control-label:not(span):after, td.required:after
 /*--Settings Board Icon Color--*/
 .btn-icon-clipboard i
 {
-    color: #8385bb;
+    color:rgb(30,65,86);
 }
 /*--Settings Board Icon Color Finish--*/
 /*--------Setting Board Button Colors Finish--------*/

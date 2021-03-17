@@ -59,7 +59,7 @@ const app = new Vue({
                 '#55588b',
                 '#e5e5e5',
                 '#328aef',
-                '#efad32',
+                '#FC4D17',
                 '#ef3232',
                 '#efef32'
             ],

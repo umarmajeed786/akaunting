@@ -21,6 +21,9 @@ define('LARAVEL_START', microtime(true));
 // Load composer for core
 require __DIR__ . '/../vendor/autoload.php';
 
+// require_once __DIR__ . '/composer/autoload_real.php';
+
+// return ComposerAutoloaderInit5f1508f879f7ea4de9b4a7a4df717770::getLoader();
 // Load composer for modules
 foreach (glob(__DIR__ . '/../modules/*') as $folder) {
     $autoload = $folder . '/vendor/autoload.php';

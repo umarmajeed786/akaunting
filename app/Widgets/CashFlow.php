@@ -72,8 +72,8 @@ class CashFlow extends Widget
             ->labels(array_values($labels));
 
         $chart->dataset(trans_choice('general.incomes', 1), 'line', array_values($income))
-            ->backgroundColor('#328aef')
-            ->color('#328aef')
+            ->backgroundColor('rgb(252,77,23)')
+            ->color('rgb(252,77,23)')
             ->options([
                 'borderWidth' => 4,
                 'pointStyle' => 'line',
@@ -81,8 +81,8 @@ class CashFlow extends Widget
             ->fill(false);
 
         $chart->dataset(trans_choice('general.expenses', 2), 'line', array_values($expense))
-            ->backgroundColor('#ef3232')
-            ->color('#ef3232')
+            ->backgroundColor('rgb(153,153,153)')
+            ->color('rgb(153,153,153)')
             ->options([
                 'borderWidth' => 4,
                 'pointStyle' => 'line',
@@ -90,8 +90,8 @@ class CashFlow extends Widget
             ->fill(false);
 
         $chart->dataset(trans_choice('general.profits', 1), 'line', array_values($profit))
-            ->backgroundColor('#6da252')
-            ->color('#6da252')
+            ->backgroundColor('rgb(30,65,86)')
+            ->color('rgb(30,65,86)')
             ->options([
                 'borderWidth' => 4,
                 'pointStyle' => 'line',

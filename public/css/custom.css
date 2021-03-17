@@ -775,7 +775,8 @@ table .align-items-center td span.badge {
 }
 
 .navbar-vertical .navbar-nav .nav-link.active i {
-    color: #161842 !important;
+    /*color: #161842 !important;*/
+    color: white !important;
 }
 
 @media (min-width: 1200px) {
